@@ -1,0 +1,112 @@
+:root {
+    --crema: #FFF6E0;
+    --platano: #F2B632;
+    --caramelo: #8A4B1F;
+    --chocolate: #3B2314;
+    --hoja: #4F7A3A;
+    --teja: #C8553D;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--chocolate);
+    background-color: var(--crema);
+    margin: 0;
+}
+
+section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--caramelo);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--caramelo);
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--caramelo);
+}
+.hero {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.hero h1 {
+    margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--chocolate);
+    margin-top: 0;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 1.5rem;
+}
+.history {
+    border-top: 1px solid rgba(138, 75, 31, 0.25);
+}
+.history,
+.benefits,
+.recipe-details {
+    border-top: 1px solid rgba(138, 75, 31, 0.25);
+}
+.benefits details {
+    border-bottom: 1px solid rgba(138, 75, 31, 0.25);
+    padding: 0.75rem 0;
+}
+
+.benefits summary {
+    font-weight: 700;
+    color: var(--caramelo);
+    cursor: pointer;
+}
+
+.benefits details p {
+    margin: 0.5rem 0 0;
+}
+
+.recipe-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.ingredients,
+.preparation {
+    background: #FFFBF0;;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(138, 75, 31, 0.15);
+}
+
+.ingredients h3 {
+    color: var(--hoja);
+}
+
+li {
+    margin-bottom: 0.5rem;
+}

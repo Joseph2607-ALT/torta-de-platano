@@ -1,0 +1,17 @@
+.Primary_heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+html{
+    background: lightgray;
+}
+.temario{
+    font-size:25px;
+    font-weight:light;
+    text-align:left;
+}
+.temas_del_1_al_6{
+    text-align:center;
+}
